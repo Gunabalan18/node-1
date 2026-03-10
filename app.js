@@ -7,7 +7,7 @@ dotenv.config();
 
 connectDB()
 
-
+console.log('Database connected successfully');
 const app=express();
 
 app.use(express.json());
